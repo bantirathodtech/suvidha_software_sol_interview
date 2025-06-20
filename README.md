@@ -1,17 +1,59 @@
-# demo1
+# Suvidha Software Solutions — Interview Project
 
-A new Flutter project.
+This Flutter project was created as part of an interview task. It demonstrates user authentication using an API, state management using MVVM + Provider, persistent login storage, and location fetching using Google Maps and GPS.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🔑 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ **User Sign-In API Integration**
+  - Uses a POST API to authenticate the user.
+  - Parses and displays user details on the profile screen after successful login.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📍 **Current Location Fetching**
+  - Uses the `geolocator` package to get the user's GPS location.
+  - Captures latitude, longitude, and check-in time during login.
+  - Location is saved using `SharedPreferences`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# suvidha_software_sol_interview
+- 🗺️ **Google Maps Integration (Extendable)**
+  - Framework is ready for map display using `google_maps_flutter`.
+  - Location markers and routes can be visualized using polylines (code structure included).
+
+---
+
+## 🏛️ Architecture
+
+- MVVM Pattern (Model-View-ViewModel)
+- `provider` for state management
+- `shared_preferences` for local storage
+- Clean separation of core services, models, views, and business logic
+
+---
+
+## 📱 Screens
+
+### 1. **Sign-In Screen**
+- Input: Email and Password
+- Button: Sign In
+- Displays error message on failure
+
+### 2. **Profile Screen**
+- Displays:
+  - Full Name
+  - Email
+  - Phone
+  - Role
+  - Branch ID
+  - Location ID
+  - Financial Year ID
+  - Latitude & Longitude
+  - Check-in Time
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+- Flutter 3.22.4 or higher
+- Android SDK 33 or above
+- Enable location permissions on device/emulator
