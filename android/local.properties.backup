@@ -1,0 +1,17 @@
+sdk.dir=/Users/apple/Library/Android/sdk
+flutter.sdk=/Users/apple/Development/SDK/flutter_3.32.4/flutter
+ndk.version=27.0.12077973
+flutter.buildMode=debug
+flutter.versionName=1.0.0
+flutter.versionCode=1
+flutter.compileSdkVersion=34
+flutter.ndkVersion=27.0.12077973
+flutter.targetSdkVersion=34
+flutter.minSdkVersion=21
+cmake.dir=/Users/apple/Library/Android/sdk/cmake/3.22.1
+sdk.dir=/Users/apple/Library/Android/sdk
+ndk.version=27.0.12077973
+flutter.compileSdkVersion=34
+flutter.ndkVersion=27.0.12077973
+flutter.targetSdkVersion=34
+flutter.minSdkVersion=21

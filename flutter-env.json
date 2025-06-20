@@ -1,0 +1,69 @@
+{
+  "defaults": {
+    "compileSdkVersion": 35,
+    "targetSdkVersion": 35,
+    "minSdkVersion": 21,
+    "ndkVersion": "27.0.12077973",
+    "javaVersion": "11"
+  },
+  "3.32.4": {
+    "compileSdkVersion": 35,
+    "ndkVersion": "27.0.12077973",
+    "kotlinVersion": "2.1.0",
+    "gradlePluginVersion": "8.7.3",
+    "gradleVersion": "8.9",
+    "targetSdkVersion": 34,
+    "minSdkVersion": 21,
+    "javaVersion": "17"
+  },
+  "3.32.0": {
+    "compileSdkVersion": 34,
+    "ndkVersion": "27.0.12077973",
+    "kotlinVersion": "2.1.0",
+    "gradlePluginVersion": "8.7.3",
+    "gradleVersion": "8.9",
+    "targetSdkVersion": 34,
+    "minSdkVersion": 21,
+    "javaVersion": "17"
+  },
+  "3.24.0": {
+    "compileSdkVersion": 34,
+    "ndkVersion": "27.0.12077973",
+    "kotlinVersion": "1.9.10",
+    "gradlePluginVersion": "8.1.0",
+    "gradleVersion": "8.3",
+    "targetSdkVersion": 34,
+    "minSdkVersion": 21,
+    "javaVersion": "11"
+  },
+  "3.22.0": {
+    "compileSdkVersion": 33,
+    "ndkVersion": "27.0.12077973",
+    "kotlinVersion": "1.8.22",
+    "gradlePluginVersion": "7.4.2",
+    "gradleVersion": "7.6",
+    "targetSdkVersion": 34,
+    "minSdkVersion": 21,
+    "javaVersion": "11"
+  },
+  "3.19.0": {
+    "compileSdkVersion": 33,
+    "ndkVersion": "23.1.7779620",
+    "kotlinVersion": "1.7.10",
+    "gradlePluginVersion": "7.3.0",
+    "gradleVersion": "7.5",
+    "targetSdkVersion": 34,
+    "minSdkVersion": 19,
+    "javaVersion": "11"
+  },
+  "3.16.0": {
+    "compileSdkVersion": 32,
+    "ndkVersion": "23.1.7779620",
+    "kotlinVersion": "1.6.21",
+    "gradlePluginVersion": "7.2.0",
+    "gradleVersion": "7.5",
+    "targetSdkVersion": 32,
+    "minSdkVersion": 19,
+    "javaVersion": "11"
+  }
+}
